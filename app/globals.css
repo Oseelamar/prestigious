@@ -5,7 +5,6 @@
   --brand-maroon: #973533;
   --paper: #fcfaf7;
   --cream: #f6efe6;
-  --sage: #cfd1c7;
   --text: #1e1a18;
   --text-muted: #6b625c;
   --on-dark: #f3e9dc;
@@ -33,7 +32,6 @@
   --color-brand-maroon: var(--brand-maroon);
   --color-paper: var(--paper);
   --color-cream: var(--cream);
-  --color-sage: var(--sage);
   --color-text: var(--text);
   --color-text-muted: var(--text-muted);
   --color-on-dark: var(--on-dark);

@@ -28,7 +28,7 @@ function CardText({ name }: { name: string }) {
 
 export default function PropertyTypes() {
   return (
-    <section id="property-types" data-reveal className="sec bg-sage">
+    <section id="property-types" data-reveal className="sec bg-paper">
       <div className="wrap grid12 gap-y-12">
         <div className="col-span-4 md:col-span-6 lg:col-span-5">
           <h2 className="t-h2 mb-12 lg:mb-16">

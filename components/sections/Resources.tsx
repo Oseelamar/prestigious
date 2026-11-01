@@ -12,7 +12,7 @@ const cards = [
 
 export default function Resources() {
   return (
-    <section id="resources" data-reveal className="sec bg-paper">
+    <section id="resources" data-reveal className="sec bg-cream">
       <div className="wrap">
         <h2 className="t-h2 mb-12 max-w-[760px] lg:mb-16">
           <Em text={field(S, "Headline")} word="Guides" />

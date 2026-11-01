@@ -25,7 +25,7 @@ export default function WhatsIncluded() {
   const headline = field(S, "Headline");
   const [before, after] = headline.split("plain");
   return (
-    <section data-reveal className="sec bg-paper">
+    <section data-reveal className="sec bg-cream">
       <div className="wrap">
         <h2 className="t-h2-lg max-w-[900px]">
           {before}

@@ -12,7 +12,7 @@ export default function Faq() {
       return { q: l.slice(0, i + 1), a: l.slice(i + 2) };
     });
   return (
-    <section id="faq" data-reveal className="sec bg-cream">
+    <section id="faq" data-reveal className="sec bg-paper">
       <div className="wrap grid12 gap-y-10">
         <h2 className="t-h2 col-span-4 md:col-span-12 lg:col-span-4">
           <Em text={field(S, "Headline")} word="boards" />

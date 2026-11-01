@@ -12,7 +12,7 @@ export default function HowTheSwitchWorks() {
       return { n: m[1], title: m[2], text: m[3] };
     });
   return (
-    <section id="switch" data-reveal className="sec bg-cream">
+    <section id="switch" data-reveal className="sec bg-paper">
       <div className="wrap">
         {/* An empty column between the copy and the photo, which otherwise sit
             24px apart and read as one block. */}

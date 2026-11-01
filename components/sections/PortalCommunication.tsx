@@ -6,7 +6,7 @@ const S = "PORTAL AND COMMUNICATION";
 
 export default function PortalCommunication() {
   return (
-    <section data-reveal data-float-root className="sec bg-paper">
+    <section data-reveal data-float-root className="sec bg-cream">
       <div className="wrap grid12 items-center gap-y-12">
         <div className="relative col-span-4 md:col-span-6">
           <div className="relative aspect-[4/5] overflow-hidden">

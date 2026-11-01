@@ -5,7 +5,7 @@ const S = "SERVICE AREA";
 
 export default function ServiceArea() {
   return (
-    <section data-reveal className="sec bg-sage">
+    <section data-reveal className="sec bg-paper">
       <div className="wrap grid12">
         <div className="col-span-4 md:col-span-8 lg:col-span-7">
           <h2 className="t-h2">

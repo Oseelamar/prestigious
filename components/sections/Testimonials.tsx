@@ -65,7 +65,7 @@ function Result({ i }: { i: 0 | 1 | 2 }) {
 
 export default function Testimonials() {
   return (
-    <section data-reveal className="sec bg-cream">
+    <section data-reveal className="sec bg-paper">
       <div className="wrap">
         <h2 className="t-h2 mb-12 lg:mb-16">
           <Em text={field(S, "Headline")} word="communities" />
