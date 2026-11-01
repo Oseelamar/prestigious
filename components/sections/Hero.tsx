@@ -49,7 +49,7 @@ export default function Hero() {
                 </span>
               ))}
             </h1>
-            <p className="t-body-lg mt-5 md:hidden">{field(S, "Subhead")}</p>
+            <p className="t-body mt-4 md:hidden">{field(S, "Subhead")}</p>
             <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-2">
               <a href="#proposal" className="btn btn-cream">
                 {field(S, "Primary button")}
