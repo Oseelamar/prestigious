@@ -1,0 +1,13 @@
+// Cloudflare config for the Prestigious concept site.
+// It lives here rather than being inherited: without it wrangler walks up and
+// picks up the Studio Website config in the parent folder.
+// The site is a Next.js static export, so there is no worker script — just the
+// contents of out/, served from Cloudflare's edge. Build with `npm run build`
+// (no NEXT_PUBLIC_BASE_PATH: this is served at the root, unlike GitHub Pages).
+{
+  "name": "prestigious",
+  "compatibility_date": "2026-01-01",
+  "assets": {
+    "directory": "./out"
+  }
+}
