@@ -80,29 +80,29 @@
     "w1": 410
   },
   "17-keys": {
-    "width": 720,
-    "height": 567,
-    "w1": 360
+    "width": 480,
+    "height": 378,
+    "w1": 240
   },
   "18-statement": {
-    "width": 640,
-    "height": 764,
-    "w1": 320
+    "width": 360,
+    "height": 430,
+    "w1": 180
   },
   "19-ledger": {
-    "width": 640,
-    "height": 650,
-    "w1": 320
+    "width": 360,
+    "height": 366,
+    "w1": 180
   },
   "20-envelopes": {
-    "width": 640,
-    "height": 760,
-    "w1": 320
+    "width": 360,
+    "height": 428,
+    "w1": 180
   },
   "21-frond": {
-    "width": 640,
-    "height": 742,
-    "w1": 320
+    "width": 360,
+    "height": 417,
+    "w1": 180
   },
   "22-seal": {
     "width": 547,

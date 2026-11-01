@@ -34,11 +34,11 @@ const assets = [
   { src: "15-team-placeholder", node: "3-15", w1: 410, w2: 819, ratio: 0.8, prompt: `Waist-up portrait of a woman in her 40s, an accounting manager in a cream blouse. Slight smile, looking at the camera, same off-white wall and window light: a plain warm off-white wall, soft daylight from a large window to one side. ${REALISM} ${PEOPLE}` },
   { src: "16-team-placeholder", node: "3-16", w1: 410, w2: 819, ratio: 0.8, retries: 1, prompt: `Indoors, studio-simple. Waist-up portrait of a man in his 20s, a resident services coordinator. Slight smile, looking at the camera, ${WALL} ${REALISM} ${PEOPLE}` },
   // Objects: the What's included section sits on paper, not cream, so they are cut out.
-  { src: "17-keys", node: "3-17", w1: 360, w2: 720, cut: "hard", prompt: object("ring of worn brass keys with a leather tag") },
-  { src: "18-statement", node: "3-18", w1: 320, w2: 640, cut: "soft", prompt: object("folded monthly financial statement with a paper clip, numbers unreadable") },
-  { src: "19-ledger", node: "3-19", w1: 320, w2: 640, cut: "soft", prompt: object("fountain pen resting on an open ledger") },
-  { src: "20-envelopes", node: "3-20", w1: 320, w2: 640, cut: "soft", prompt: object("small stack of cream envelopes tied with twine") },
-  { src: "21-frond", node: "3-21", w1: 320, w2: 640, cut: "soft", prompt: object("fresh green sabal palm frond") },
+  { src: "17-keys", node: "3-17", w1: 240, w2: 480, cut: "hard", prompt: object("ring of worn brass keys with a leather tag") },
+  { src: "18-statement", node: "3-18", w1: 180, w2: 360, cut: "soft", prompt: object("folded monthly financial statement with a paper clip, numbers unreadable") },
+  { src: "19-ledger", node: "3-19", w1: 180, w2: 360, cut: "soft", prompt: object("fountain pen resting on an open ledger") },
+  { src: "20-envelopes", node: "3-20", w1: 180, w2: 360, cut: "soft", prompt: object("small stack of cream envelopes tied with twine") },
+  { src: "21-frond", node: "3-21", w1: 180, w2: 360, cut: "soft", prompt: object("fresh green sabal palm frond") },
   { src: "22-seal", node: "3-22", w1: 280, w2: 560, cut: "seal", prompt: `Top-down photograph of a deep oxblood-maroon wax seal pressed onto heavy cream cotton paper. The impression shows a single palm frond crossed with a key, with no letters or numbers. Hard daylight, a crisp shadow, visible paper fibres and uneven wax edges. The seal sits slightly off-centre. ${REALISM}` },
   // Supplied by the client, not generated. Cropped to the 3:4 leadership frame,
   // which also takes the photographer's mark off the bottom-right corner.
@@ -171,7 +171,7 @@ async function cutout(buffer, mode) {
 }
 
 async function encode(buffer, width, file, maxKB, alpha) {
-  let quality = alpha ? 88 : 76, out;
+  let quality = alpha ? 82 : 76, out;
   do {
     out = await sharp(buffer).resize({ width, withoutEnlargement: true }).webp({ quality, effort: 6, alphaQuality: 90 }).toBuffer();
     quality -= 4;
