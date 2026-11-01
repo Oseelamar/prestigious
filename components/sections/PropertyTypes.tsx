@@ -10,10 +10,12 @@ function CardText({ name }: { name: string }) {
     <div>
       <h3 className="t-h3">{name}</h3>
       <p className="t-body mt-3">{m[1]}</p>
-      <ul className="t-small mt-4 border-t border-text/25">
+      <ul className="t-small mt-4 space-y-1.5">
         {m[2].split(" / ").map((b) => (
-          <li key={b} className="border-b border-text/25 py-2.5">
-            {b}
+          <li key={b} className="flex gap-2">
+            {/* A real hyphen rather than a list marker, so wrapped lines hang. */}
+            <span aria-hidden="true">-</span>
+            <span>{b}</span>
           </li>
         ))}
       </ul>

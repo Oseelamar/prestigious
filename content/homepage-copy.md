@@ -180,7 +180,6 @@
 <!-- Small interface text the brief implies but does not spell out. Added during the build; review before launch. -->
 
 ## FLOATING CARDS
-- Hero: Work order #2048 · Closed in 6 hrs
 - Financials: March financials · Sent to the board
 - Board packet: Board packet · Ready for Thursday
 - Hurricane: Hurricane prep notice · Sent to 214 owners

@@ -1,5 +1,5 @@
 import Photo from "@/components/ui/Photo";
-import { Em, FloatCard } from "@/components/ui/bits";
+import { Em } from "@/components/ui/bits";
 import { field } from "@/lib/copy";
 
 const S = "HERO";
@@ -7,6 +7,8 @@ const S = "HERO";
 const ink = (alpha: number) => `color-mix(in srgb, var(--ink-maroon) ${alpha}%, transparent)`;
 
 export default function Hero() {
+  // "Your board sets the direction." / "We handle the rest."
+  const headline = field(S, "Headline").split(/(?<=\.)\s+/);
   return (
     <section data-float-root className="on-dark relative isolate flex min-h-[840px] flex-col overflow-hidden text-on-dark [--hero-x:24%] md:min-h-[860px] md:[--hero-x:100%]">
       <Photo
@@ -25,26 +27,29 @@ export default function Hero() {
       />
       <div
         className="absolute inset-0 -z-10 hidden md:block"
-        style={{ background: `radial-gradient(ellipse 114% 86% at 0% 100%, ${ink(72)} 0%, ${ink(63)} 58%, ${ink(52)} 82%, transparent 100%), linear-gradient(to top, ${ink(68)} 0%, ${ink(40)} 12%, transparent 30%)` }}
+        style={{
+          background: [
+            // Behind the subhead at the far right, which otherwise sits on open sky.
+            `radial-gradient(ellipse 44% 34% at 88% 82%, ${ink(74)} 0%, ${ink(58)} 52%, transparent 100%)`,
+            `radial-gradient(ellipse 114% 86% at 0% 100%, ${ink(72)} 0%, ${ink(63)} 58%, ${ink(52)} 82%, transparent 100%)`,
+            `linear-gradient(to top, ${ink(68)} 0%, ${ink(40)} 12%, transparent 30%)`,
+          ].join(", "),
+        }}
       />
-      {/* Pale haze behind the top-right subhead, so dark text stays readable over any palm fronds. */}
-      <div
-        className="absolute inset-0 -z-10 hidden md:block"
-        style={{ background: "radial-gradient(ellipse 44% 40% at 84% 12%, color-mix(in srgb, var(--paper) 76%, transparent) 0%, color-mix(in srgb, var(--paper) 52%, transparent) 55%, transparent 100%)" }}
-      />
-
       <div className="wrap flex flex-1 flex-col">
-        <div className="grid12 hidden pt-16 md:grid">
-          <p className="t-body-lg col-span-5 col-start-8 text-text xl:col-span-4 xl:col-start-9 xl:pl-6">{field(S, "Subhead")}</p>
-        </div>
-
         <div className="grid12 mt-auto pb-6 pt-16 md:pb-8">
-          <div className="col-span-4 md:col-span-10 xl:col-span-8">
+          <div className="col-span-4 md:col-span-8">
             <p className="t-label mb-4">{field(S, "Eyebrow")}</p>
+            {/* One sentence per line. The copy is written to break there, so the
+                size is set to let the longer of the two sit on a single line. */}
             <h1 className="t-hero">
-              <Em text={field(S, "Headline")} word="rest" />
+              {headline.map((line, i) => (
+                <span key={line} className="block">
+                  {i === headline.length - 1 ? <Em text={line} word="rest" /> : line}
+                </span>
+              ))}
             </h1>
-            <p className="t-body-lg mt-4 md:hidden">{field(S, "Subhead")}</p>
+            <p className="t-body-lg mt-5 md:hidden">{field(S, "Subhead")}</p>
             <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-2">
               <a href="#proposal" className="btn btn-cream">
                 {field(S, "Primary button")}
@@ -54,8 +59,9 @@ export default function Hero() {
               </a>
             </div>
           </div>
-          <div className="col-span-4 hidden items-end justify-end md:col-span-2 xl:col-span-4 xl:flex">
-            <FloatCard text={field("FLOATING CARDS", "Hero")} />
+          {/* Far right, sitting on the headline's last line. Stacks under it on a phone. */}
+          <div className="hidden md:col-span-4 md:flex md:items-end md:pb-1">
+            <p className="t-body">{field(S, "Subhead")}</p>
           </div>
         </div>
 
