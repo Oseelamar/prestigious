@@ -20,11 +20,13 @@ export default function Leadership() {
         <div className="wrap text-center">
           <p className="t-label">{field(S, "Eyebrow")}</p>
           <h2 className="t-stat mt-6">{field(S, "Headline")}</h2>
-          <div className="mt-12 grid items-center gap-8 lg:mt-16 lg:grid-cols-[1fr_280px_1fr] lg:gap-16">
+          {/* The middle column is one of the three the team portraits below are
+              laid out on, so Angela's frame is exactly their width. */}
+          <div className="mt-12 grid items-center gap-8 lg:mt-16 lg:grid-cols-[1fr_calc((100%-48px)/3)_1fr] lg:gap-16">
             <p className="t-small order-2 mx-auto max-w-[280px] lg:order-1 lg:mr-0 lg:text-right">{body.slice(0, cut + 1).trim()}</p>
             {/* The client's own photograph of Angela. Never generated. */}
-            <div className="relative order-1 mx-auto aspect-[3/4] w-[220px] overflow-hidden lg:order-2 lg:w-[280px]">
-              <Photo name="24-angela-dean" fill sizes="(min-width: 1024px) 280px, 220px" className="object-cover" alt="Angela Dean, founder of Prestigious Property Management Services, standing with her arms folded in a white suit." />
+            <div className="relative order-1 mx-auto aspect-[3/4] w-[82%] max-w-[320px] overflow-hidden lg:order-2 lg:w-full lg:max-w-none">
+              <Photo name="24-angela-dean" fill sizes="(min-width: 1024px) 30vw, 82vw" className="object-cover" alt="Angela Dean, founder of Prestigious Property Management Services, standing with her arms folded in a white suit." />
             </div>
             <p className="t-small order-3 mx-auto max-w-[280px] lg:ml-0 lg:text-left">{body.slice(cut + 1).trim()}</p>
           </div>

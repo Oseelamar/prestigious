@@ -43,7 +43,7 @@ const assets = [
   // Supplied by the client, not generated. Cropped to the 3:4 leadership frame,
   // which also takes the photographer's mark off the bottom-right corner.
   // Ungraded on purpose: it is a real portrait and keeps the tone it came with.
-  { src: "24-angela-dean", w1: 320, w2: 640, raw: true, supplied: "Client-supplied photograph of Angela Dean.", crop: { left: 60, top: 0, width: 960, height: 1280 } },
+  { src: "24-angela-dean", w1: 400, w2: 800, raw: true, supplied: "Client-supplied photograph of Angela Dean.", crop: { left: 60, top: 0, width: 960, height: 1280 } },
   { src: "23-paper", node: "3-23", w1: 512, w2: 1024, retries: 1, noRealismBlock: true, prompt: "A flat, evenly lit scan of heavy cream cotton paper with faint fibres and no folds. The entire frame is only blank paper, filled edge to edge, with no objects, no scene and no buildings. True-to-life colour with a soft warm cast, gentle contrast, fine grain. No text, signs, logos or watermarks." },
 ];
 
