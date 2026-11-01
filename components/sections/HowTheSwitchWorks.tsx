@@ -14,8 +14,10 @@ export default function HowTheSwitchWorks() {
   return (
     <section id="switch" data-reveal className="sec bg-cream">
       <div className="wrap">
-        <div className="grid12 gap-y-10">
-          <div className="col-span-4 md:col-span-6">
+        {/* An empty column between the copy and the photo, which otherwise sit
+            24px apart and read as one block. */}
+        <div className="grid12 gap-y-12 md:gap-y-16">
+          <div className="col-span-4 md:col-span-5">
             <Eyebrow>{field(S, "Eyebrow")}</Eyebrow>
             <h2 className="t-h2 mt-6">
               <Em text={field(S, "Headline")} word="simpler" />
@@ -25,7 +27,7 @@ export default function HowTheSwitchWorks() {
               {field(S, "Button")}
             </a>
           </div>
-          <div className="relative col-span-4 aspect-[3/2] overflow-hidden md:col-span-6">
+          <div className="relative col-span-4 aspect-[3/2] overflow-hidden md:col-span-6 md:col-start-7">
             <Photo name="09-keys-handover-placeholder" fill sizes="(min-width: 1024px) 44vw, (min-width: 768px) 46vw, 90vw" className="object-cover" alt="One person passing a ring of brass keys to another across a wooden table, beside a signed document and a pen." />
           </div>
         </div>

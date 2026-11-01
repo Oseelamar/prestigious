@@ -64,8 +64,8 @@ body {
 @layer components {
 /* Type styles: mobile size up to desktop size at the 1440 frame */
 .t-wordmark { font: 400 clamp(96px, 16.67vw, 240px) / 0.9 var(--font-serif); }
-.t-hero { font: 400 clamp(34px, 3.9vw, 56px) / 1.05 var(--font-serif); letter-spacing: -0.01em; }
-.t-h2 { font: 400 clamp(36px, 3.89vw, 56px) / 1.05 var(--font-serif); }
+.t-hero { font: 400 clamp(30px, 3.9vw, 56px) / 1.1 var(--font-serif); letter-spacing: -0.01em; }
+.t-h2 { font: 400 clamp(28px, 3.33vw, 48px) / 1.2 var(--font-serif); }
 .t-h2-lg { font: 400 clamp(36px, 5vw, 72px) / 1.05 var(--font-serif); }
 .t-h3 { font: 400 clamp(26px, 2.22vw, 32px) / 1.15 var(--font-serif); }
 .t-h4 { font: 400 clamp(22px, 1.67vw, 24px) / 1.25 var(--font-serif); }
@@ -82,6 +82,8 @@ body {
 }
 @media (min-width: 768px) {
   .t-label { font-size: 12px; }
+  /* The looser leading above is for a phone, where these headlines wrap most. */
+  .t-h2 { line-height: 1.05; }
 }
 .t-hero em, .t-h2 em, .t-h2-lg em, .t-h3 em { font-style: italic; }
 
