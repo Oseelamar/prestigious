@@ -34,7 +34,7 @@ export default function Leadership() {
       </section>
       <div data-reveal className="bg-cream py-[72px] lg:py-24">
         <div className="wrap">
-          <ul className="snap-row md:mx-0 md:grid md:grid-flow-row md:grid-cols-3 md:gap-6 md:overflow-visible md:px-0">
+          <ul data-stagger className="snap-row md:mx-0 md:grid md:grid-flow-row md:grid-cols-3 md:gap-6 md:overflow-visible md:px-0">
             {team.map((person, i) => (
               <li key={person.name}>
                 <div className="relative aspect-[4/5] overflow-hidden">

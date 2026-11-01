@@ -237,6 +237,40 @@ body {
 }
 .motion .is-in [data-float], .motion [data-float].is-in { opacity: 1; transform: none; }
 
+/* Micro-interactions. Opacity and transform only, so they stay on the
+   compositor, and all of them are off when .motion is absent. */
+
+/* Cards arrive just behind their section, one after the next. The section
+   carries the fade, so these only move. */
+.motion [data-stagger] > * {
+  transform: translateY(18px);
+  transition: transform 520ms cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+.motion .is-in [data-stagger] > * { transform: none; }
+.motion [data-stagger] > *:nth-child(2) { transition-delay: 70ms; }
+.motion [data-stagger] > *:nth-child(3) { transition-delay: 140ms; }
+.motion [data-stagger] > *:nth-child(4) { transition-delay: 210ms; }
+.motion [data-stagger] > *:nth-child(5) { transition-delay: 280ms; }
+
+/* A card's photograph leans in while the card is pointed at, focused or held.
+   :active carries it on a touch screen, where there is no hover. */
+.motion [data-zoom] img { transition: transform 700ms cubic-bezier(0.2, 0.6, 0.2, 1); }
+.motion a:hover [data-zoom] img,
+.motion a:focus-visible [data-zoom] img,
+.motion a:active [data-zoom] img { transform: scale(1.05); }
+
+.motion .btn { transition: background-color 150ms, color 150ms, border-color 150ms, transform 150ms ease; }
+.motion .btn:active { transform: translateY(1px); }
+
+/* The hero photograph settles as the page opens, then drifts under its scrim
+   through the first screenful. The drift is set from Motion.tsx. */
+/* backwards, not both: once it finishes the drift transform below takes over. */
+.motion [data-hero-photo] { animation: hero-settle 1200ms cubic-bezier(0.2, 0.6, 0.2, 1) backwards; }
+@keyframes hero-settle {
+  from { transform: scale(1.06); }
+  to { transform: none; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition: none !important; animation: none !important; }

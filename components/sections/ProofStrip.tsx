@@ -17,7 +17,7 @@ export default function ProofStrip() {
         <dl className="grid grid-cols-[0.8fr_1.2fr] gap-y-10 lg:grid-cols-[1fr_1.45fr_1fr_1fr]">
           {[a, b].map((s, i) => (
             <div key={s.caption} className={`flex flex-col justify-end pr-4 ${i ? "border-l border-[var(--on-dark-20)] pl-4 lg:pl-6" : ""}`}>
-              <dd className="t-stat order-1">{s.figure}</dd>
+              <dd data-count className="t-stat order-1">{s.figure}</dd>
               <dt className="t-label order-2 mt-3">{s.caption}</dt>
             </div>
           ))}

@@ -40,7 +40,7 @@ export default function WhatsIncluded() {
         </h2>
         <p className="t-body-lg mt-6 max-w-[620px]">{field(S, "Intro")}</p>
 
-        <ul className="mt-16 hidden grid-cols-5 gap-6 lg:grid">
+        <ul data-stagger className="mt-16 hidden grid-cols-5 gap-6 lg:grid">
           {items.map((item) => (
             <li key={item.key} className="border-t border-hairline pt-6">
               <div className="flex h-[160px] items-center justify-start">

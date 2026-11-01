@@ -31,7 +31,7 @@ export default function HowTheSwitchWorks() {
             <Photo name="09-keys-handover-placeholder" fill sizes="(min-width: 1024px) 44vw, (min-width: 768px) 46vw, 90vw" className="object-cover" alt="One person passing a ring of brass keys to another across a wooden table, beside a signed document and a pen." />
           </div>
         </div>
-        <ol className="mt-16 grid gap-0 lg:mt-20 lg:grid-cols-5 lg:gap-6">
+        <ol data-stagger className="mt-16 grid gap-0 lg:mt-20 lg:grid-cols-5 lg:gap-6">
           {steps.map((step, i) => (
             <li key={step.n} className="relative grid grid-cols-[72px_1fr] gap-x-4 pb-10 last:pb-0 lg:block lg:pb-0">
               {/* 1px line joining the numerals: down the side on mobile, across on desktop */}

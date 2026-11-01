@@ -18,7 +18,7 @@ export default function AudiencePaths() {
         <h2 className="t-h2 mb-12 text-center lg:mb-16">
           <Em text={field(S, "Headline")} word="start" />
         </h2>
-        <ul className="snap-row md:mx-0 md:grid md:grid-flow-row md:grid-cols-2 md:gap-6 md:overflow-visible md:px-0 lg:grid-cols-4">
+        <ul data-stagger className="snap-row md:mx-0 md:grid md:grid-flow-row md:grid-cols-2 md:gap-6 md:overflow-visible md:px-0 lg:grid-cols-4">
           {cards.map((card) => {
             const { body, link } = withLink(field(S, card.key));
             return (
@@ -26,7 +26,7 @@ export default function AudiencePaths() {
                 <a href={card.href} className="group block">
                   <div className="tagged">
                     <span className={`tag t-label ${card.color}`}>{card.tag}</span>
-                    <div className="relative aspect-[4/5] overflow-hidden">
+                    <div data-zoom className="relative aspect-[4/5] overflow-hidden">
                       <Photo name={card.photo} fill sizes="(min-width: 1024px) 22vw, (min-width: 768px) 44vw, 78vw" className="object-cover" alt={card.alt} />
                     </div>
                   </div>

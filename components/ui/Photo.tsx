@@ -9,9 +9,11 @@ type Props = {
   fill?: boolean;
   priority?: boolean;
   position?: string;
+  /** Marks the hero photograph, which the stylesheet drifts on scroll. */
+  drift?: boolean;
 };
 
-export default function Photo({ name, alt, sizes: sizesAttr, className, fill, priority, position }: Props) {
+export default function Photo({ name, alt, sizes: sizesAttr, className, fill, priority, position, drift }: Props) {
   const { width, height } = sizes[name];
   return (
     <Image
@@ -22,6 +24,7 @@ export default function Photo({ name, alt, sizes: sizesAttr, className, fill, pr
       style={position ? { objectPosition: position } : undefined}
       {...(fill ? { fill: true } : { width, height })}
       {...(priority ? { preload: true, fetchPriority: "high" as const } : {})}
+      {...(drift ? { "data-hero-photo": "" } : {})}
     />
   );
 }

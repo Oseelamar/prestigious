@@ -17,6 +17,7 @@ export default function Hero() {
         priority
         sizes="100vw"
         className="-z-20 object-cover"
+        drift
         position="var(--hero-x) 50%"
         alt="Two-storey cream stucco townhomes with terracotta roofs and arched loggias behind tall royal palms in late-afternoon sun, with a resident walking a dog far down the street."
       />
