@@ -1,0 +1,241 @@
+@import "tailwindcss";
+
+:root {
+  --ink-maroon: #2a0b0d;
+  --brand-maroon: #7e2b2f;
+  --paper: #fcfaf7;
+  --cream: #f6efe6;
+  --sage: #cfd1c7;
+  --text: #1e1a18;
+  --text-muted: #6b625c;
+  --on-dark: #f3e9dc;
+  --hairline: #e4dbd0;
+  --tag-sage: #5e6b5a;
+  --tag-clay: #9a4f2e;
+  --on-dark-20: color-mix(in srgb, var(--on-dark) 20%, transparent);
+  --on-dark-15: color-mix(in srgb, var(--on-dark) 15%, transparent);
+  --scrim-92: color-mix(in srgb, var(--ink-maroon) 92%, transparent);
+  --scrim-82: color-mix(in srgb, var(--ink-maroon) 82%, transparent);
+  --scrim-72: color-mix(in srgb, var(--ink-maroon) 72%, transparent);
+  --scrim-58: color-mix(in srgb, var(--ink-maroon) 58%, transparent);
+  --gutter: 20px;
+}
+
+@media (min-width: 768px) {
+  :root { --gutter: 40px; }
+}
+@media (min-width: 1024px) {
+  :root { --gutter: 80px; }
+}
+
+@theme inline {
+  --color-ink-maroon: var(--ink-maroon);
+  --color-brand-maroon: var(--brand-maroon);
+  --color-paper: var(--paper);
+  --color-cream: var(--cream);
+  --color-sage: var(--sage);
+  --color-text: var(--text);
+  --color-text-muted: var(--text-muted);
+  --color-on-dark: var(--on-dark);
+  --color-hairline: var(--hairline);
+  --color-tag-sage: var(--tag-sage);
+  --color-tag-clay: var(--tag-clay);
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+  --font-mono: var(--font-plex-mono), ui-monospace, monospace;
+  --font-serif: var(--font-kalice), Georgia, serif;
+  --breakpoint-sm: 390px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1440px;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 88px;
+}
+body {
+  background: var(--paper);
+  color: var(--text);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: clip;
+}
+
+@layer components {
+/* Type styles: mobile size up to desktop size at the 1440 frame */
+.t-wordmark { font: 400 clamp(96px, 16.67vw, 240px) / 0.9 var(--font-serif); }
+.t-hero { font: 400 clamp(48px, 6.11vw, 88px) / 1 var(--font-serif); letter-spacing: -0.01em; }
+.t-h2 { font: 400 clamp(36px, 3.89vw, 56px) / 1.05 var(--font-serif); }
+.t-h2-lg { font: 400 clamp(36px, 5vw, 72px) / 1.05 var(--font-serif); }
+.t-h3 { font: 400 clamp(26px, 2.22vw, 32px) / 1.15 var(--font-serif); }
+.t-h4 { font: 400 clamp(22px, 1.67vw, 24px) / 1.25 var(--font-serif); }
+.t-stat { font: 400 clamp(56px, 6.67vw, 96px) / 1 var(--font-serif); }
+.t-step { font: 400 clamp(48px, 4.44vw, 64px) / 1 var(--font-serif); }
+.t-body-lg { font: 400 clamp(18px, 1.39vw, 20px) / 1.5 var(--font-sans); }
+.t-body { font: 400 clamp(16px, 1.18vw, 17px) / 1.6 var(--font-sans); }
+.t-small { font: 400 14px / 1.5 var(--font-sans); }
+.t-button { font: 500 16px / 1.25 var(--font-sans); }
+.t-label {
+  font: 500 11px / 1.3 var(--font-mono);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+@media (min-width: 768px) {
+  .t-label { font-size: 12px; }
+}
+.t-hero em, .t-h2 em, .t-h2-lg em, .t-h3 em { font-style: italic; }
+
+/* Grid */
+.wrap {
+  width: 100%;
+  max-width: 1440px;
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+.grid12 {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  column-gap: 16px;
+}
+.sec { padding-block: 72px; position: relative; }
+@media (min-width: 768px) {
+  .grid12 { grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: 24px; }
+}
+@media (min-width: 1024px) {
+  .sec { padding-block: 128px; }
+}
+
+/* Buttons and links */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 12px 24px;
+  border-radius: 2px;
+  border: 1px solid transparent;
+  font: 500 16px / 1.25 var(--font-sans);
+  transition: background-color 150ms, color 150ms, border-color 150ms;
+}
+.btn-primary { background: var(--ink-maroon); color: var(--on-dark); }
+.btn-primary:hover { background: var(--brand-maroon); }
+.btn-cream { background: var(--cream); color: var(--ink-maroon); }
+.btn-cream:hover { background: var(--paper); }
+.btn-outline { border-color: var(--ink-maroon); color: var(--ink-maroon); }
+.btn-outline:hover { background: var(--ink-maroon); color: var(--on-dark); }
+
+.link-arrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  font: 500 16px / 1.25 var(--font-sans);
+  color: var(--brand-maroon);
+}
+.link-arrow .icon { transition: transform 150ms; }
+.link-arrow:hover .icon, a:hover > * .link-arrow .icon, a:hover .link-arrow .icon { transform: translateX(4px); }
+
+.icon {
+  display: inline-block;
+  flex: none;
+  width: 24px;
+  height: 24px;
+  background: currentColor;
+  mask: var(--icon) center / contain no-repeat;
+  -webkit-mask: var(--icon) center / contain no-repeat;
+}
+
+/* Focus */
+:focus-visible {
+  outline: 2px solid var(--brand-maroon);
+  outline-offset: 2px;
+}
+.on-dark :focus-visible { outline-color: var(--on-dark); }
+
+.skip-link {
+  position: absolute;
+  left: 16px;
+  top: -64px;
+  z-index: 100;
+  padding: 12px 16px;
+  background: var(--paper);
+  color: var(--text);
+}
+.skip-link:focus { top: 8px; }
+
+/* Vertical colour tag on a card's left edge (Varsity) */
+.tagged { display: grid; grid-template-columns: 28px minmax(0, 1fr); }
+.tag {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  /* vertical-rl turns the text sideways, so top and bottom are the ends of the
+     word and left and right are the width of the bar. Physical values on
+     purpose: Lightning CSS drops one of padding-inline/padding-block when it
+     collapses the pair here. */
+  padding: 24px 12px;
+  color: var(--on-dark);
+}
+
+/* Short rule with a label above section titles (DailyPay) */
+.eyebrow { display: flex; align-items: center; gap: 12px; color: var(--brand-maroon); }
+.eyebrow::before { content: ""; width: 32px; height: 2px; background: currentColor; flex: none; }
+
+.float-card {
+  background: var(--paper);
+  color: var(--text);
+  padding: 12px 16px;
+  box-shadow: 0 12px 32px color-mix(in srgb, var(--ink-maroon) 18%, transparent);
+  max-width: 260px;
+}
+
+/* Mobile scroll-snap rows, about 1.2 cards in view */
+.snap-row {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 82%;
+  gap: 16px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  margin-inline: calc(var(--gutter) * -1);
+  padding-inline: var(--gutter);
+  scroll-padding-inline: var(--gutter);
+  scrollbar-width: none;
+}
+@media (min-width: 768px) {
+    .snap-row { grid-auto-columns: 46%; }
+  }
+  .snap-row > * { scroll-snap-align: start; }
+.snap-row::-webkit-scrollbar { display: none; }
+
+/* Accordion height */
+.acc-panel {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 240ms ease;
+}
+.acc-panel[data-open="true"] { grid-template-rows: 1fr; }
+.acc-panel > div { overflow: hidden; min-height: 0; }
+.acc-panel[data-open="false"] > div { visibility: hidden; transition: visibility 0s 240ms; }
+}
+
+/* First-view motion. Only active when the head script adds .motion */
+.motion [data-reveal] {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 400ms ease, transform 400ms ease;
+}
+.motion [data-reveal].is-in { opacity: 1; transform: none; }
+.motion [data-float] {
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 400ms ease 200ms, transform 400ms ease 200ms;
+}
+.motion .is-in [data-float], .motion [data-float].is-in { opacity: 1; transform: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+}

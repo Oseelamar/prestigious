@@ -1,0 +1,282 @@
+{
+  "figmaFile": "https://www.figma.com/design/qA757iHHXwpvtMl6coTlGc",
+  "generations": 28,
+  "rejected": [
+    {
+      "file": "01-hero-test-sunburst.png",
+      "model": "gpt-image-2.5-sunburst",
+      "figma": "https://www.figma.com/design/qA757iHHXwpvtMl6coTlGc?node-id=2-5"
+    }
+  ],
+  "assets": [
+    {
+      "file": "01-hero.png",
+      "output": [
+        "public/images/01-hero@1x.webp",
+        "public/images/01-hero@2x.webp"
+      ],
+      "prompt": "Two-storey Mediterranean Revival townhomes inside a gated community in Palm Beach County, Florida. Cream stucco, terracotta barrel-tile roofs, arched loggias, tall royal palms, a neatly edged lawn, one resident walking a dog far in the distance. Late-afternoon sun, long soft shadows, a pale hazy sky. Eye level from the street. Keep the lower-left third calm and slightly darker for a large headline. Documentary photograph, not a render. Shot on a full-frame camera with a 35mm lens at f/4, natural light only. True-to-life colour with a soft warm cast, gentle contrast, slightly muted greens and creamy highlights, fine film grain like Kodak Portra 400. Real-world imperfections: weathered stucco, uneven grass, small stains, utility boxes, parked cars. No HDR, no oversaturation, no glossy or plastic surfaces, no perfect symmetry, no lens flare, no text, signs, logos or watermarks.",
+      "model": "gpt-image-2.5-flare",
+      "retries": 0,
+      "figma": "https://www.figma.com/design/qA757iHHXwpvtMl6coTlGc?node-id=2-6"
+    },
+    {
+      "file": "02-boards-placeholder.png",
+      "output": [
+        "public/images/02-boards-placeholder@1x.webp",
+        "public/images/02-boards-placeholder@2x.webp"
+      ],
+      "prompt": "Four volunteer board members of a Florida condominium association, mixed ages from their 40s to their 70s and mixed backgrounds, around a clubhouse table with their community manager, reviewing printed financial reports. Smart-casual clothes, reading glasses, coffee cups, a binder. Window light from the left. Mid-conversation. Documentary photograph, not a render. Shot on a full-frame camera with a 35mm lens at f/4, natural light only. True-to-life colour with a soft warm cast, gentle contrast, slightly muted greens and creamy highlights, fine film grain like Kodak Portra 400. Real-world imperfections: weathered stucco, uneven grass, small stains, utility boxes, parked cars. No HDR, no oversaturation, no glossy or plastic surfaces, no perfect symmetry, no lens flare, no text, signs, logos or watermarks. Candid and mid-moment, not looking at the camera unless stated. Natural skin with visible pores and fine lines, no retouching, real everyday clothes. Relaxed hands with five fingers.",
+      "model": "gpt-image-2.5-flare",
+      "retries": 0,
+      "figma": "https://www.figma.com/design/qA757iHHXwpvtMl6coTlGc?node-id=3-2"
+    },
+    {
+      "file": "03-residents-placeholder.png",
+      "output": [
+        "public/images/03-residents-placeholder@1x.webp",
+        "public/images/03-residents-placeholder@2x.webp"
+      ],
+      "prompt": "A woman in her 30s at the entrance of a low-rise condo building in Delray Beach, Florida, glancing at her phone while carrying a tote bag. Bright open shade, a stucco wall, a potted palm, mailboxes slightly out of focus. Documentary photograph, not a render. Shot on a full-frame camera with a 35mm lens at f/4, natural light only. True-to-life colour with a soft warm cast, gentle contrast, slightly muted greens and creamy highlights, fine film grain like Kodak Portra 400. Real-world imperfections: weathered stucco, uneven grass, small stains, utility boxes, parked cars. No HDR, no oversaturation, no glossy or plastic surfaces, no perfect symmetry, no lens flare, no text, signs, logos or watermarks. Candid and mid-moment, not looking at the camera unless stated. Natural skin with visible pores and fine lines, no retouching, real everyday clothes. Relaxed hands with five fingers.",
+      "model": "gpt-image-2.5-flare",
+      "retries": 0,
+      "figma": "https://www.figma.com/design/qA757iHHXwpvtMl6coTlGc?node-id=3-3"
+    },
+    {
+      "file": "04-investors-placeholder.png",
+      "output": [
+        "public/images/04-investors-placeholder@1x.webp",
+        "public/images/04-investors-placeholder@2x.webp"
+      ],
+      "prompt": "A man in his 50s in the driveway of a single-storey stucco rental house in Lake Worth, Florida, holding a ring of keys and talking to someone out of frame. Soft overcast light, a slightly worn concrete driveway, a sea-grape hedge. Documentary photograph, not a render. Shot on a full-frame camera with a 35mm lens at f/4, natural light only. True-to-life colour with a soft warm cast, gentle contrast, slightly muted greens and creamy highlights, fine film grain like Kodak Portra 400. Real-world imperfections: weathered stucco, uneven grass, small stains, utility boxes, parked cars. No HDR, no oversaturation, no glossy or plastic surfaces, no perfect symmetry, no lens flare, no text, signs, logos or watermarks. Candid and mid-moment, not looking at the camera unless stated. Natural skin with visible pores and fine lines, no retouching, real everyday clothes. Relaxed hands with five fingers.",
+      "model": "gpt-image-2.5-flare",
+      "retries": 0,
+      "figma": "https://www.figma.com/design/qA757iHHXwpvtMl6coTlGc?node-id=3-4"
+    },
+    {
+      "file": "05-lcam-placeholder.png",
+      "output": [
+        "public/images/05-lcam-placeholder@1x.webp",
+        "public/images/05-lcam-placeholder@2x.webp"
+      ],
+      "prompt": "An evening study scene at a kitchen table in a Florida apartment: an open laptop with its screen blurred and unreadable, a thick study book, flash cards, a highlighter and a mug. Warm lamp light mixed with blue dusk from the window. Only the student's hands in frame. Documentary photograph, not a render. Shot on a full-frame camera with a 35mm lens at f/4, natural light only. True-to-life colour with a soft warm cast, gentle contrast, slightly muted greens and creamy highlights, fine film grain like Kodak Portra 400. Real-world imperfections: weathered stucco, uneven grass, small stains, utility boxes, parked cars. No HDR, no oversaturation, no glossy or plastic surfaces, no perfect symmetry, no lens flare, no text, signs, logos or watermarks. Candid and mid-moment, not looking at the camera unless stated. Natural skin with visible pores and fine lines, no retouching, real everyday clothes. Relaxed hands with five fingers.",
+      "model": "gpt-image-2.5-flare",
+      "retries": 0,
+      "figma": "https://www.figma.com/design/qA757iHHXwpvtMl6coTlGc?node-id=3-5"
+    },
+    {
+      "file": "06-hoa.png",
+      "output": [
+        "public/images/06-hoa@1x.webp",
+        "public/images/06-hoa@2x.webp"
+      ],
+      "prompt": "A quiet residential street inside a South Florida HOA: single-family homes with barrel-tile roofs, sidewalks, sabal palms, lawn edges still damp from sprinklers. Early-morning light. Documentary photograph, not a render. Shot on a full-frame camera with a 35mm lens at f/4, natural light only. True-to-life colour with a soft warm cast, gentle contrast, slightly muted greens and creamy highlights, fine film grain like Kodak Portra 400. Real-world imperfections: weathered stucco, uneven grass, small stains, utility boxes, parked cars. No HDR, no oversaturation, no glossy or plastic surfaces, no perfect symmetry, no lens flare, no text, signs, logos or watermarks.",
+      "model": "gpt-image-2.5-flare",
+      "retries": 0,
+      "figma": "https://www.figma.com/design/qA757iHHXwpvtMl6coTlGc?node-id=3-6"
+    },
+    {
+      "file": "07-condo.png",
+      "output": [
+        "public/images/07-condo@1x.webp",
+        "public/images/07-condo@2x.webp"
+      ],
+      "prompt": "A mid-rise condominium in Boca Raton seen from its pool deck: white balconies with glass railings, lounge chairs, palms, late-day light and a little haze. Straight vertical lines. Documentary photograph, not a render. Shot on a full-frame camera with a 35mm lens at f/4, natural light only. True-to-life colour with a soft warm cast, gentle contrast, slightly muted greens and creamy highlights, fine film grain like Kodak Portra 400. Real-world imperfections: weathered stucco, uneven grass, small stains, utility boxes, parked cars. No HDR, no oversaturation, no glossy or plastic surfaces, no perfect symmetry, no lens flare, no text, signs, logos or watermarks.",
+      "model": "gpt-image-2.5-flare",
+      "retries": 0,
+      "figma": "https://www.figma.com/design/qA757iHHXwpvtMl6coTlGc?node-id=3-7"
+    },
+    {
+      "file": "08-investment.png",
+      "output": [
+        "public/images/08-investment@1x.webp",
+        "public/images/08-investment@2x.webp"
+      ],
+      "prompt": "A single-storey 1960s Florida ranch house with pale yellow stucco, white hurricane shutters, a carport and a mango tree. Clear morning light, a little peeling paint on the fascia. Documentary photograph, not a render. Shot on a full-frame camera with a 35mm lens at f/4, natural light only. True-to-life colour with a soft warm cast, gentle contrast, slightly muted greens and creamy highlights, fine film grain like Kodak Portra 400. Real-world imperfections: weathered stucco, uneven grass, small stains, utility boxes, parked cars. No HDR, no oversaturation, no glossy or plastic surfaces, no perfect symmetry, no lens flare, no text, signs, logos or watermarks.",
+      "model": "gpt-image-2.5-flare",
+      "retries": 0,
+      "figma": "https://www.figma.com/design/qA757iHHXwpvtMl6coTlGc?node-id=3-8"
+    },
+    {
+      "file": "09-keys-handover-placeholder.png",
+      "output": [
+        "public/images/09-keys-handover-placeholder@1x.webp",
+        "public/images/09-keys-handover-placeholder@2x.webp"
+      ],
+      "prompt": "Close-up of two hands passing a ring of brass keys across a wooden table, with a signed document (text unreadable) and a pen beside them. Soft window light, shallow depth of field, real skin texture. Documentary photograph, not a render. Shot on a full-frame camera with a 35mm lens at f/4, natural light only. True-to-life colour with a soft warm cast, gentle contrast, slightly muted greens and creamy highlights, fine film grain like Kodak Portra 400. Real-world imperfections: weathered stucco, uneven grass, small stains, utility boxes, parked cars. No HDR, no oversaturation, no glossy or plastic surfaces, no perfect symmetry, no lens flare, no text, signs, logos or watermarks. Candid and mid-moment, not looking at the camera unless stated. Natural skin with visible pores and fine lines, no retouching, real everyday clothes. Relaxed hands with five fingers.",
+      "model": "gpt-image-2.5-flare",
+      "retries": 0,
+      "figma": "https://www.figma.com/design/qA757iHHXwpvtMl6coTlGc?node-id=3-9"
+    },
+    {
+      "file": "10-portal-placeholder.png",
+      "output": [
+        "public/images/10-portal-placeholder@1x.webp",
+        "public/images/10-portal-placeholder@2x.webp"
+      ],
+      "prompt": "A woman in her 60s on her condo balcony in Fort Lauderdale at golden hour, reading a message on her phone, with Intracoastal water and boats softly blurred behind her. Documentary photograph, not a render. Shot on a full-frame camera with a 35mm lens at f/4, natural light only. True-to-life colour with a soft warm cast, gentle contrast, slightly muted greens and creamy highlights, fine film grain like Kodak Portra 400. Real-world imperfections: weathered stucco, uneven grass, small stains, utility boxes, parked cars. No HDR, no oversaturation, no glossy or plastic surfaces, no perfect symmetry, no lens flare, no text, signs, logos or watermarks. Candid and mid-moment, not looking at the camera unless stated. Natural skin with visible pores and fine lines, no retouching, real everyday clothes. Relaxed hands with five fingers.",
+      "model": "gpt-image-2.5-flare",
+      "retries": 0,
+      "figma": "https://www.figma.com/design/qA757iHHXwpvtMl6coTlGc?node-id=3-10"
+    },
+    {
+      "file": "11-testimonial-placeholder.png",
+      "output": [
+        "public/images/11-testimonial-placeholder@1x.webp",
+        "public/images/11-testimonial-placeholder@2x.webp"
+      ],
+      "prompt": "Head-and-shoulders portrait of a woman in her 60s with short grey hair. Laughing naturally in front of a plain warm off-white wall, soft daylight from a large window to one side. Documentary photograph, not a render. Shot on a full-frame camera with a 35mm lens at f/4, natural light only. True-to-life colour with a soft warm cast, gentle contrast, slightly muted greens and creamy highlights, fine film grain like Kodak Portra 400. Real-world imperfections: weathered stucco, uneven grass, small stains, utility boxes, parked cars. No HDR, no oversaturation, no glossy or plastic surfaces, no perfect symmetry, no lens flare, no text, signs, logos or watermarks. Candid and mid-moment, not looking at the camera unless stated. Natural skin with visible pores and fine lines, no retouching, real everyday clothes. Relaxed hands with five fingers.",
+      "model": "gpt-image-2.5-flare",
+      "retries": 0,
+      "figma": "https://www.figma.com/design/qA757iHHXwpvtMl6coTlGc?node-id=3-11"
+    },
+    {
+      "file": "12-testimonial-placeholder.png",
+      "output": [
+        "public/images/12-testimonial-placeholder@1x.webp",
+        "public/images/12-testimonial-placeholder@2x.webp"
+      ],
+      "prompt": "Indoors, studio-simple. Head-and-shoulders portrait of a man in his 40s with a trimmed beard. Laughing naturally in front of a plain warm off-white interior wall that fills the whole background, soft daylight from a large window to one side, nothing else visible behind him. Documentary photograph, not a render. Shot on a full-frame camera with a 35mm lens at f/4, natural light only. True-to-life colour with a soft warm cast, gentle contrast, slightly muted greens and creamy highlights, fine film grain like Kodak Portra 400. Real-world imperfections: weathered stucco, uneven grass, small stains, utility boxes, parked cars. No HDR, no oversaturation, no glossy or plastic surfaces, no perfect symmetry, no lens flare, no text, signs, logos or watermarks. Candid and mid-moment, not looking at the camera unless stated. Natural skin with visible pores and fine lines, no retouching, real everyday clothes. Relaxed hands with five fingers.",
+      "model": "gpt-image-2.5-flare",
+      "retries": 1,
+      "figma": "https://www.figma.com/design/qA757iHHXwpvtMl6coTlGc?node-id=3-12"
+    },
+    {
+      "file": "13-testimonial-placeholder.png",
+      "output": [
+        "public/images/13-testimonial-placeholder@1x.webp",
+        "public/images/13-testimonial-placeholder@2x.webp"
+      ],
+      "prompt": "Head-and-shoulders portrait of a woman in her 50s with curly hair. Laughing naturally in front of a plain warm off-white wall, soft daylight from a large window to one side. Documentary photograph, not a render. Shot on a full-frame camera with a 35mm lens at f/4, natural light only. True-to-life colour with a soft warm cast, gentle contrast, slightly muted greens and creamy highlights, fine film grain like Kodak Portra 400. Real-world imperfections: weathered stucco, uneven grass, small stains, utility boxes, parked cars. No HDR, no oversaturation, no glossy or plastic surfaces, no perfect symmetry, no lens flare, no text, signs, logos or watermarks. Candid and mid-moment, not looking at the camera unless stated. Natural skin with visible pores and fine lines, no retouching, real everyday clothes. Relaxed hands with five fingers.",
+      "model": "gpt-image-2.5-flare",
+      "retries": 0,
+      "figma": "https://www.figma.com/design/qA757iHHXwpvtMl6coTlGc?node-id=3-13"
+    },
+    {
+      "file": "14-team-placeholder.png",
+      "output": [
+        "public/images/14-team-placeholder@1x.webp",
+        "public/images/14-team-placeholder@2x.webp"
+      ],
+      "prompt": "Indoors, studio-simple. Waist-up portrait of a man in his 30s, a community manager in a navy polo. Slight smile, looking at the camera, standing in front of a plain warm off-white interior wall that fills the whole background, soft daylight from a large window to one side, nothing else visible behind him. Documentary photograph, not a render. Shot on a full-frame camera with a 35mm lens at f/4, natural light only. True-to-life colour with a soft warm cast, gentle contrast, slightly muted greens and creamy highlights, fine film grain like Kodak Portra 400. Real-world imperfections: weathered stucco, uneven grass, small stains, utility boxes, parked cars. No HDR, no oversaturation, no glossy or plastic surfaces, no perfect symmetry, no lens flare, no text, signs, logos or watermarks. Candid and mid-moment, not looking at the camera unless stated. Natural skin with visible pores and fine lines, no retouching, real everyday clothes. Relaxed hands with five fingers.",
+      "model": "gpt-image-2.5-flare",
+      "retries": 1,
+      "figma": "https://www.figma.com/design/qA757iHHXwpvtMl6coTlGc?node-id=3-14"
+    },
+    {
+      "file": "15-team-placeholder.png",
+      "output": [
+        "public/images/15-team-placeholder@1x.webp",
+        "public/images/15-team-placeholder@2x.webp"
+      ],
+      "prompt": "Waist-up portrait of a woman in her 40s, an accounting manager in a cream blouse. Slight smile, looking at the camera, same off-white wall and window light: a plain warm off-white wall, soft daylight from a large window to one side. Documentary photograph, not a render. Shot on a full-frame camera with a 35mm lens at f/4, natural light only. True-to-life colour with a soft warm cast, gentle contrast, slightly muted greens and creamy highlights, fine film grain like Kodak Portra 400. Real-world imperfections: weathered stucco, uneven grass, small stains, utility boxes, parked cars. No HDR, no oversaturation, no glossy or plastic surfaces, no perfect symmetry, no lens flare, no text, signs, logos or watermarks. Candid and mid-moment, not looking at the camera unless stated. Natural skin with visible pores and fine lines, no retouching, real everyday clothes. Relaxed hands with five fingers.",
+      "model": "gpt-image-2.5-flare",
+      "retries": 0,
+      "figma": "https://www.figma.com/design/qA757iHHXwpvtMl6coTlGc?node-id=3-15"
+    },
+    {
+      "file": "16-team-placeholder.png",
+      "output": [
+        "public/images/16-team-placeholder@1x.webp",
+        "public/images/16-team-placeholder@2x.webp"
+      ],
+      "prompt": "Indoors, studio-simple. Waist-up portrait of a man in his 20s, a resident services coordinator. Slight smile, looking at the camera, standing in front of a plain warm off-white interior wall that fills the whole background, soft daylight from a large window to one side, nothing else visible behind him. Documentary photograph, not a render. Shot on a full-frame camera with a 35mm lens at f/4, natural light only. True-to-life colour with a soft warm cast, gentle contrast, slightly muted greens and creamy highlights, fine film grain like Kodak Portra 400. Real-world imperfections: weathered stucco, uneven grass, small stains, utility boxes, parked cars. No HDR, no oversaturation, no glossy or plastic surfaces, no perfect symmetry, no lens flare, no text, signs, logos or watermarks. Candid and mid-moment, not looking at the camera unless stated. Natural skin with visible pores and fine lines, no retouching, real everyday clothes. Relaxed hands with five fingers.",
+      "model": "gpt-image-2.5-flare",
+      "retries": 1,
+      "figma": "https://www.figma.com/design/qA757iHHXwpvtMl6coTlGc?node-id=3-16"
+    },
+    {
+      "file": "17-keys.png",
+      "output": [
+        "public/images/17-keys@1x.webp",
+        "public/images/17-keys@2x.webp"
+      ],
+      "prompt": "A single ring of worn brass keys with a leather tag, shot top-down on seamless warm cream paper (#F6EFE6), soft daylight from the upper left, a gentle natural shadow, crisp real-material detail, nothing else in frame. Documentary photograph, not a render. Shot on a full-frame camera with a 35mm lens at f/4, natural light only. True-to-life colour with a soft warm cast, gentle contrast, slightly muted greens and creamy highlights, fine film grain like Kodak Portra 400. Real-world imperfections: weathered stucco, uneven grass, small stains, utility boxes, parked cars. No HDR, no oversaturation, no glossy or plastic surfaces, no perfect symmetry, no lens flare, no text, signs, logos or watermarks.",
+      "model": "gpt-image-2.5-flare",
+      "retries": 0,
+      "figma": "https://www.figma.com/design/qA757iHHXwpvtMl6coTlGc?node-id=3-17",
+      "cutout": "hard"
+    },
+    {
+      "file": "18-statement.png",
+      "output": [
+        "public/images/18-statement@1x.webp",
+        "public/images/18-statement@2x.webp"
+      ],
+      "prompt": "A single folded monthly financial statement with a paper clip, numbers unreadable, shot top-down on seamless warm cream paper (#F6EFE6), soft daylight from the upper left, a gentle natural shadow, crisp real-material detail, nothing else in frame. Documentary photograph, not a render. Shot on a full-frame camera with a 35mm lens at f/4, natural light only. True-to-life colour with a soft warm cast, gentle contrast, slightly muted greens and creamy highlights, fine film grain like Kodak Portra 400. Real-world imperfections: weathered stucco, uneven grass, small stains, utility boxes, parked cars. No HDR, no oversaturation, no glossy or plastic surfaces, no perfect symmetry, no lens flare, no text, signs, logos or watermarks.",
+      "model": "gpt-image-2.5-flare",
+      "retries": 0,
+      "figma": "https://www.figma.com/design/qA757iHHXwpvtMl6coTlGc?node-id=3-18",
+      "cutout": "soft"
+    },
+    {
+      "file": "19-ledger.png",
+      "output": [
+        "public/images/19-ledger@1x.webp",
+        "public/images/19-ledger@2x.webp"
+      ],
+      "prompt": "A single fountain pen resting on an open ledger, shot top-down on seamless warm cream paper (#F6EFE6), soft daylight from the upper left, a gentle natural shadow, crisp real-material detail, nothing else in frame. Documentary photograph, not a render. Shot on a full-frame camera with a 35mm lens at f/4, natural light only. True-to-life colour with a soft warm cast, gentle contrast, slightly muted greens and creamy highlights, fine film grain like Kodak Portra 400. Real-world imperfections: weathered stucco, uneven grass, small stains, utility boxes, parked cars. No HDR, no oversaturation, no glossy or plastic surfaces, no perfect symmetry, no lens flare, no text, signs, logos or watermarks.",
+      "model": "gpt-image-2.5-flare",
+      "retries": 0,
+      "figma": "https://www.figma.com/design/qA757iHHXwpvtMl6coTlGc?node-id=3-19",
+      "cutout": "soft"
+    },
+    {
+      "file": "20-envelopes.png",
+      "output": [
+        "public/images/20-envelopes@1x.webp",
+        "public/images/20-envelopes@2x.webp"
+      ],
+      "prompt": "A single small stack of cream envelopes tied with twine, shot top-down on seamless warm cream paper (#F6EFE6), soft daylight from the upper left, a gentle natural shadow, crisp real-material detail, nothing else in frame. Documentary photograph, not a render. Shot on a full-frame camera with a 35mm lens at f/4, natural light only. True-to-life colour with a soft warm cast, gentle contrast, slightly muted greens and creamy highlights, fine film grain like Kodak Portra 400. Real-world imperfections: weathered stucco, uneven grass, small stains, utility boxes, parked cars. No HDR, no oversaturation, no glossy or plastic surfaces, no perfect symmetry, no lens flare, no text, signs, logos or watermarks.",
+      "model": "gpt-image-2.5-flare",
+      "retries": 0,
+      "figma": "https://www.figma.com/design/qA757iHHXwpvtMl6coTlGc?node-id=3-20",
+      "cutout": "soft"
+    },
+    {
+      "file": "21-frond.png",
+      "output": [
+        "public/images/21-frond@1x.webp",
+        "public/images/21-frond@2x.webp"
+      ],
+      "prompt": "A single fresh green sabal palm frond, shot top-down on seamless warm cream paper (#F6EFE6), soft daylight from the upper left, a gentle natural shadow, crisp real-material detail, nothing else in frame. Documentary photograph, not a render. Shot on a full-frame camera with a 35mm lens at f/4, natural light only. True-to-life colour with a soft warm cast, gentle contrast, slightly muted greens and creamy highlights, fine film grain like Kodak Portra 400. Real-world imperfections: weathered stucco, uneven grass, small stains, utility boxes, parked cars. No HDR, no oversaturation, no glossy or plastic surfaces, no perfect symmetry, no lens flare, no text, signs, logos or watermarks.",
+      "model": "gpt-image-2.5-flare",
+      "retries": 0,
+      "figma": "https://www.figma.com/design/qA757iHHXwpvtMl6coTlGc?node-id=3-21",
+      "cutout": "soft"
+    },
+    {
+      "file": "22-seal.png",
+      "output": [
+        "public/images/22-seal@1x.webp",
+        "public/images/22-seal@2x.webp"
+      ],
+      "prompt": "Top-down photograph of a deep oxblood-maroon wax seal pressed onto heavy cream cotton paper. The impression shows a single palm frond crossed with a key, with no letters or numbers. Hard daylight, a crisp shadow, visible paper fibres and uneven wax edges. The seal sits slightly off-centre. Documentary photograph, not a render. Shot on a full-frame camera with a 35mm lens at f/4, natural light only. True-to-life colour with a soft warm cast, gentle contrast, slightly muted greens and creamy highlights, fine film grain like Kodak Portra 400. Real-world imperfections: weathered stucco, uneven grass, small stains, utility boxes, parked cars. No HDR, no oversaturation, no glossy or plastic surfaces, no perfect symmetry, no lens flare, no text, signs, logos or watermarks.",
+      "model": "gpt-image-2.5-flare",
+      "retries": 0,
+      "figma": "https://www.figma.com/design/qA757iHHXwpvtMl6coTlGc?node-id=3-22",
+      "cutout": "seal"
+    },
+    {
+      "file": "24-angela-dean.png",
+      "output": [
+        "public/images/24-angela-dean@1x.webp",
+        "public/images/24-angela-dean@2x.webp"
+      ],
+      "source": "Client-supplied photograph of Angela Dean.",
+      "graded": false
+    },
+    {
+      "file": "23-paper.png",
+      "output": [
+        "public/images/23-paper@1x.webp",
+        "public/images/23-paper@2x.webp"
+      ],
+      "prompt": "A flat, evenly lit scan of heavy cream cotton paper with faint fibres and no folds. The entire frame is only blank paper, filled edge to edge, with no objects, no scene and no buildings. True-to-life colour with a soft warm cast, gentle contrast, fine grain. No text, signs, logos or watermarks.",
+      "model": "gpt-image-2.5-flare",
+      "retries": 1,
+      "figma": "https://www.figma.com/design/qA757iHHXwpvtMl6coTlGc?node-id=3-23",
+      "note": "Realism block removed after it produced a building instead of paper."
+    }
+  ]
+}
